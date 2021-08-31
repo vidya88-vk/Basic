@@ -1,0 +1,61 @@
+laravel project creation steps:
+1.go to c->xampp htdocs
+2.composer create-project laravel/laravel project_name
+3.project done successfully
+
+composer require mongodb/mongodb
+
+​[23-Jun 5:26 PM] Lokesh Pachi
+    
+ 
+
+
+
+
+composer require jenssegers/mongodb
+
+
+
+
+
+​[23-Jun 5:27 PM] Lokesh Pachi
+    
+ 
+composer require jenssegers/mongodb --ignore-platform-reqs
+
+
+[23-Jun 11:39 AM] Lokesh Pachi
+    
+
+	
+Configure git lab user
+	Generate ssh-keygen
+	Add to in setting in gitlab
+	clone the project from gitlab
+	
+
+​[23-Jun 11:41 AM] Lokesh Pachi
+    
+git config --global user.email <your email address>
+
+git config --global user.name <you name>
+​[23-Jun 11:41 AM] Lokesh Pachi
+    ssh-keygen
+​[23-Jun 11:46 AM] Lokesh Pachi
+    copy the pub file to githab ssh 
+​[23-Jun 11:47 AM] Lokesh Pachi
+    git clone project 
+git checkout test
+
+
+
+How to generate ssh keys
+step 1:-go to program files->git->usr->bin
+step 2:-open git bash there
+step:3 - type ssh-keygen on git bash(it asking for a file where u want to save your key)
+step4:- give path like /c/User/user/.ssh/ssh key name
+step 5:-asking for pass and re entering password
+step 6:-key gen suucessfully.go to location where it generate
+step 7:-add public key to git hub for that go to git hub acc->go to setting->go to ssh key
+step 8:- for copying public key to avoid any mistake type below cmd on git bash(type keyname.pub | clip)
+step 9:- got to ssh key gen on git acc and paste there
