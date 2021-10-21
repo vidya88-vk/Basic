@@ -1,0 +1,21 @@
+To push or to commit code on git steps:-
+1.git status
+2.git add . == to add all files
+3. git commit -m "message"
+4.git push ===enter ssh key after this cmd
+5.gitk --all === to see what u commit
+
+
+
+To run any laravel git project on your local do some steps:-
+1.clone that code--clone ssh
+2.type git clone "path" in git bash(xampp-htdocs folder)
+3.type ssh key--if asked
+4.when done rename env develope file to only .env
+5.run cmd composer install
+6.run php artisan serve cmd
+
+To pull code:-
+1.git pull
+2. enter ssh key when asked 
+3.done
